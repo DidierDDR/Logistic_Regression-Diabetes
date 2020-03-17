@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import pandas as pd
 import numpy as np
 import math
@@ -143,4 +137,3 @@ print('Fake Negatives: '+str(falseneg)+'\n')
 print('Accuracy: '+str(round(100*(correct/(correct+wrong))))+'%')
 print('Precision: '+str(round(100*(truepos/(truepos + falsepos))))+'%')
 print('Recall: '+str(round(100*(truepos/(truepos + falseneg))))+'%')
-
